@@ -13,16 +13,16 @@ export default function Home() {
       </div>
 
       {/* Headline */}
-      <h1 className="text-5xl md:text-[5.5rem] font-bold text-center tracking-tighter leading-[1.05] mb-10 max-w-4xl text-gray-900 px-4">
+      <h1 className="text-4xl md:text-7xl font-medium text-center tracking-tight leading-[1.05] mb-8 max-w-4xl text-gray-900 px-4">
         Big collections.<br />No code required.
       </h1>
 
       {/* Buttons */}
-      <div className="flex items-center gap-4 mb-20">
-        <button className="px-8 py-3.5 bg-black text-white rounded-full font-medium hover:bg-gray-800 transition-all hover:scale-105 active:scale-95">
+      <div className="flex items-center gap-4 mb-12">
+        <button className="px-6 py-2.5 text-sm bg-black text-white rounded-full font-medium hover:bg-gray-800 transition-all hover:scale-105 active:scale-95">
           Connect
         </button>
-        <button className="px-8 py-3.5 bg-white text-black rounded-full font-medium border border-gray-200 hover:border-gray-300 hover:bg-gray-50 transition-all shadow-sm hover:shadow hover:scale-105 active:scale-95">
+        <button className="px-6 py-2.5 text-sm bg-white text-black rounded-full font-medium border border-gray-200 hover:border-gray-300 hover:bg-gray-50 transition-all shadow-sm hover:shadow hover:scale-105 active:scale-95">
           Learn more
         </button>
       </div>
