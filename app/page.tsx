@@ -50,7 +50,7 @@ export default function Home() {
           
           {/* Center */}
           <div className="w-72 h-80 rounded-t-[2.5rem] bg-gray-200 z-40 shadow-2xl relative overflow-hidden shrink-0 group hover:-translate-y-4 transition-transform duration-500">
-            <Image src="https://images.unsplash.com/photo-1618005192384-a83a8bd57fbe?q=80&w=1000&auto=format&fit=crop" alt="Abstract art" fill className="object-cover group-hover:scale-110 transition-transform duration-700" referrerPolicy="no-referrer" priority />
+            <Image src="https://images.unsplash.com/photo-1557672172-298e090bd0f1?q=80&w=1000&auto=format&fit=crop" alt="Abstract art" fill className="object-cover group-hover:scale-110 transition-transform duration-700" referrerPolicy="no-referrer" priority />
             <div className="absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors duration-500"></div>
           </div>
           
@@ -68,7 +68,7 @@ export default function Home() {
           
           {/* Right 3 */}
           <div className="w-40 h-40 rounded-t-3xl bg-gray-200 -ml-12 z-10 translate-y-16 shadow-xl relative overflow-hidden shrink-0 group hover:-translate-y-4 transition-transform duration-500">
-            <Image src="https://images.unsplash.com/photo-1550684848-76ce504ce97e?q=80&w=800&auto=format&fit=crop" alt="Abstract art" fill className="object-cover group-hover:scale-110 transition-transform duration-700" referrerPolicy="no-referrer" />
+            <Image src="https://images.unsplash.com/photo-1557682250-33bd709cbe85?q=80&w=800&auto=format&fit=crop" alt="Abstract art" fill className="object-cover group-hover:scale-110 transition-transform duration-700" referrerPolicy="no-referrer" />
             <div className="absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors duration-500"></div>
           </div>
         </div>
