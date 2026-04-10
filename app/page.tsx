@@ -35,7 +35,9 @@ export default function Home() {
             Subscribe
           </button>
         </form>
-        <p className="text-xs text-gray-500 font-medium">Join the early beta. Limited spots available.</p>
+        <p className="text-xs text-gray-500 font-medium">
+          Join the early beta. Limited spots available. <a href="#" className="text-black underline underline-offset-2 hover:text-gray-700 transition-colors">Learn more</a>
+        </p>
       </div>
 
       {/* Cards Gallery */}
