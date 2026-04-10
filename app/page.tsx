@@ -1,3 +1,5 @@
+'use client';
+
 import Image from 'next/image';
 
 export default function Home() {
@@ -17,14 +19,23 @@ export default function Home() {
         Big collections.<br />No code required.
       </h1>
 
-      {/* Buttons */}
-      <div className="flex items-center gap-4 mb-12">
-        <button className="px-6 py-2.5 text-sm bg-black text-white rounded-full font-medium hover:bg-gray-800 transition-all hover:scale-105 active:scale-95">
-          Connect
-        </button>
-        <button className="px-6 py-2.5 text-sm bg-white text-black rounded-full font-medium border border-gray-200 hover:border-gray-300 hover:bg-gray-50 transition-all shadow-sm hover:shadow hover:scale-105 active:scale-95">
-          Learn more
-        </button>
+      {/* Beta Registration */}
+      <div className="flex flex-col items-center gap-3 mb-12 w-full max-w-md px-4">
+        <form className="relative flex items-center w-full bg-white rounded-full border border-gray-200 shadow-sm hover:shadow-md transition-shadow p-1.5" onSubmit={(e) => e.preventDefault()}>
+          <input 
+            type="email" 
+            placeholder="Enter your email address" 
+            className="flex-1 bg-transparent px-4 py-2 text-sm text-gray-900 placeholder:text-gray-400 focus:outline-none"
+            required
+          />
+          <button 
+            type="submit"
+            className="px-6 py-2.5 text-sm bg-black text-white rounded-full font-medium hover:bg-gray-800 transition-colors active:scale-95 shrink-0"
+          >
+            Subscribe
+          </button>
+        </form>
+        <p className="text-xs text-gray-500 font-medium">Join the early beta. Limited spots available.</p>
       </div>
 
       {/* Cards Gallery */}
